@@ -7,5 +7,5 @@ class Rectangle{
 
 const rec1 = new Rectangle(12, 20);
 
-console.log("Width of the rectangle is " + rec1.width);
+console.log("Width : " + rec1.width);
 
