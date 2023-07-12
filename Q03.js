@@ -22,18 +22,18 @@ class Dog{
 	}
 }
 
-const dog1 = new Dog('Pug', 2, 'Black');
+const dog1 = new Dog('Pug', 3, 'Black');
 const dog2 = new Dog('Boxer', 2, 'White');
-const dog3 = new Dog('Poodle', 2, 'Brown');
+const dog3 = new Dog('Poodle', 1, 'Brown');
 
-console.log('Dog 1 Breed : ' + dog1.Breed);
-console.log('Dog 1 : ' + dog1.Eat() + '\n');
+console.log('Dog 1 Age : ' + dog1.Age);
+console.log('Dog 1 : ' + dog1.Sit() + '\n');
 
-console.log('Dog 2 Age : ' + dog2.Age);
-console.log('Dog 2 : ' + dog2.Sleep() + '\n');
+console.log('Dog 2 Color : ' + dog2.Color);
+console.log('Dog 2 : ' + dog2.Eat() + '\n');
 
-console.log('Dog 3 Color : ' + dog3.Color);
-console.log('Dog 3 : ' + dog1.Sit() + '\n');
+console.log('Dog 3 Breed : ' + dog3.Breed);
+console.log('Dog 3 : ' + dog1.Run() + '\n');
 
 
 
